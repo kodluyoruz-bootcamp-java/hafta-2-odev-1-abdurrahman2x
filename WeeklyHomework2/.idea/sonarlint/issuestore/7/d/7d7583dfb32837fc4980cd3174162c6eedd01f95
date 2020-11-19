@@ -1,0 +1,13 @@
+
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(åÀœùÿÿÿÿ8—¸ÜÏİ.
+>
+java:S1170"!Make this final field static too.(µ©ÿ8“°œÏİ.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø†œ'
+C
+java:S1170"!Make this final field static too.(ë³‚şÿÿÿÿ8¶èÏ±İ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(”şÀŞ8¶èÏ±İ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(„ÕÛ£şÿÿÿÿ8åãôÏİ.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(À¾ô8öæŒÏİ.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ûõã¥ùÿÿÿÿ8…ëÜÏİ.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(†ÈÀşÿÿÿÿ8¦óäÏİ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(òİÇ‘8¿°ŠÏİ.
