@@ -2,7 +2,7 @@ package Mobile;
 
 
 public class Samsung extends MobilePhone implements PhoneServices{
-        private final String keyboardType = "Classic button Keybord";
+        private ClassicKeyboard keyboard = new ClassicKeyboard();
         private final String markaName = "Samsung";
 
         Samsung(String modelName,String imeiCode,String versionCode,int memoryCapacity,double screenSize){
@@ -37,6 +37,6 @@ public class Samsung extends MobilePhone implements PhoneServices{
         System.out.println("---------------------ABOUT YOUR SAMSUNG---------------------");
         System.out.println("Marka: "+markaName);
         super.getDeviceInfo();
-        System.out.println("Keyboard Type: "+keyboardType);
+        System.out.println("Keyboard Type: "+keyboard.getKeyboardType());
     }
 }

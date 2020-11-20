@@ -6,6 +6,7 @@ public class MobilePhone {
     private String versionCode;
     private int memoryCapacity;
     private double screenSize;
+    private String keyboardType;
 
 
     public MobilePhone(){

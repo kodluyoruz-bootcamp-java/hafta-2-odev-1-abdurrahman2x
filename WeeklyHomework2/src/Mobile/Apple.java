@@ -5,7 +5,7 @@ package Mobile;
 
 public class Apple extends MobilePhone implements PhoneServices{
     private final String markaName = "Apple";
-    private final String keyboardType = "Touch Keyboard";
+    private TouchKeyboard keyboard = new TouchKeyboard();
 
     Apple(String modelName,String imeiCode,String versionCode,int memoryCapacity,double screenSize){
         super(modelName,imeiCode,versionCode,memoryCapacity,screenSize);
@@ -40,6 +40,6 @@ public class Apple extends MobilePhone implements PhoneServices{
         System.out.println("---------------------ABOUT YOUR IPHONE---------------------");
         System.out.println("Marka: "+markaName);
         super.getDeviceInfo();
-        System.out.println("Keyboard type: "+keyboardType);
+        System.out.println("Keyboard type: "+keyboard.getKeyboardType());
     }
 }
